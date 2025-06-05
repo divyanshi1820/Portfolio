@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #111;
+  transition: all 0.4s ease-in-out;
+}
+.container {
+  margin: 3rem;
+}
+header {
+  padding: 1rem 2rem;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1rem;
+}
+nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #ff4d5a;
+}
+.hero img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+}
+.intro {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem;
+}
+.card {
+  display: block;
+  flex: 1 1 calc(50% - 2rem);
+  max-width: 48%;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+.card img {
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+.caption {
+  padding: 1rem;
+  background: #fafafa;
+}
+
+h0 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 3rem; /* approx 40px */
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem; /* approx 32px */
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem; /* approx 24px */
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.2rem; /* approx 19px */
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 60px;
+  background-color: #fff;
+  color: #000;
+  border-top: 1px solid #e0e0e0;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-left h2 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.footer-left p {
+  margin: 4px 0;
+  color: #555;
+  font-size: 15px;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.footer-right a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-right a:hover {
+  color: #ff4d5a;
+}
+
+.quote {
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: italic;
+  margin: 3rem 0 2rem;
+  color: #444;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.gallery img {
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}

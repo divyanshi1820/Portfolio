@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Divyanshi Bhandari</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="nav-left">Divyanshi Bhandari</div>
+    <nav class="nav-right">
+      <a href="index.html" class="active">Portfolio</a>
+      <a href="resume.html">Resumé</a>
+      <button class="icon-btn">☰</button>
+    </nav>
+  </header>
+
+  <main>
+    <img src="hero.jpg" alt="Divyanshi in front of architectural backdrop" class="hero-img"/>
+  </main>
+</body>
+</html>

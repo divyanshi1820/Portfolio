@@ -56,7 +56,8 @@ nav a:hover {
 .card {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: auto;
+  height: auto;
   max-width: 500px;
   text-decoration: none;
   color: inherit;

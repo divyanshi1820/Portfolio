@@ -57,7 +57,7 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   width: auto;
-  height: auto;
+  height: 100%;
   max-width: 500px;
   text-decoration: none;
   color: inherit;

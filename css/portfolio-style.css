@@ -58,7 +58,6 @@ nav a:hover {
   flex-direction: row;
   width: 100%;
   height: auto;
-  max-width: 500px;
   text-decoration: none;
   color: inherit;
   border-radius: 8px;

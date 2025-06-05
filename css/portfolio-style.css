@@ -77,6 +77,10 @@ nav a:hover {
   background: #fafafa;
 }
 
+p {
+  padding-bottom: 15px;
+}
+
 h0 {
   font-size: 1.5rem;
   margin-bottom: 10px;

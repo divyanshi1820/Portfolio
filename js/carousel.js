@@ -1,4 +1,3 @@
-<script>
  let currentSlide = 0;
 const slides = document.querySelectorAll('.carousel-img');
 
@@ -21,4 +20,3 @@ function prevSlide() {
 document.addEventListener("DOMContentLoaded", () => {
   showSlide(currentSlide);
 });
-</script>

@@ -47,11 +47,19 @@ nav a:hover {
   margin: auto;
 }
 .projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
+  column-count: 2;
+  column-gap: 2rem;
   padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    column-count: 1;
+
+@media (min-width: 1024px) {
+  .projects {
+    column-count: 3;
+  }
 }
 .card {
   display: flex;

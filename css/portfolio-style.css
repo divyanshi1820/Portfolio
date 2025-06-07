@@ -59,7 +59,7 @@ nav a:hover {
   width: auto;
   height: auto;
   max-width: 400px;
-  max-height: 300px;
+  max-height: 200px;
   object-fit: cover;
   object-position: center;
   text-decoration: none;

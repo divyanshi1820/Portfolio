@@ -66,13 +66,14 @@ nav a:hover {
   }
 }
 .card {
-  display: flex;
+  display: inline-block;
   flex-direction: column;
   max-width: 400px;
   text-decoration: none;
   color: inherit;
   border-radius: 8px;
   overflow: hidden;
+  break-inside: avoid;
   transition: transform 0.3s ease;
 }
 .card:hover {

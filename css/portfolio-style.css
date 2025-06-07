@@ -54,14 +54,9 @@ nav a:hover {
   padding: 2rem;
 }
 .card {
-  display: flex;
-  flex-direction: row;
-  width: auto;
-  height: auto;
-  max-width: 400px;
-  max-height: 200px;
-  object-fit: cover;
-  object-position: center;
+  display: block;
+  flex: 1 1 calc(50% - 2rem);
+  max-width: 48%;
   text-decoration: none;
   color: inherit;
   border-radius: 8px;

@@ -46,6 +46,13 @@ nav a:hover {
   max-width: 900px;
   margin: auto;
 }
+
+.projects-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
 .projects {
   column-count: 2;
   column-gap: 2rem;

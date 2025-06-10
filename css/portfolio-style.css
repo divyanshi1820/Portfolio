@@ -101,6 +101,31 @@ nav a:hover {
   background: #fafafa;
 }
 
+.banner img {
+  width: 100%;
+  height: auto;
+  max-height: 350px;
+  object-fit: cover;
+}
+.resume {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.columns > div {
+  flex: 1;
+  min-width: 300px;
+}
+ul {
+  padding-left: 1.2rem;
+}
+
 p {
   padding-bottom: 1.5em;
 }

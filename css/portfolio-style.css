@@ -47,10 +47,6 @@ nav a:hover {
   margin: auto;
 }
 .projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
   column-count: 2;
   column-gap: 2rem;
   padding: 2rem;
@@ -59,42 +55,40 @@ nav a:hover {
 @media (max-width: 768px) {
   .projects {
     column-count: 1;
+  }
+}
 
 @media (min-width: 1024px) {
   .projects {
     column-count: 3;
   }
 }
+   
 .card {
-  display: flex;
-  flex-direction: row;
-  width: auto;
-  height: auto;
-  max-width: 400px;
-  max-height: 200px;
-  object-fit: cover;
-  object-position: center;
-  text-decoration: none;
-  color: inherit;
-  border-radius: 8px;
-  overflow: hidden;
   break-inside: avoid;
   margin-bottom: 1.5rem;
+  background: #fafafa;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  text-decoration: none;
+  color: inherit;
+  display: block; /* no flexbox */
+  overflow: hidden;
   transition: transform 0.3s ease;
 }
+
 .card:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 20px rgba(0,0,0,0.2);
 }
+
 .card img {
   width: 100%;
   height: auto;
-  display: block;
   object-fit: cover;
-  border-bottom: 1px solid #ccc;
+  display: block;
 }
+
 .caption {
   padding: 1rem;
   background: #fafafa;
